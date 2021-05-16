@@ -1,0 +1,24 @@
+{
+  "name": "com.github.nlua.nlua",
+  "version": "1.5.9",
+  "displayName": "NLua",
+  "description": "NLua is the bridge between the Lua and .NET worlds. NLua runs on top of KeraLua bindings.\nNLua is compatible with .NET Core/UWP/Mac/Linux/Android/iOS/tvOS.\n\nAccess the Github Repository at https://github.com/NLua/NLua",
+  "unity": "2019.4",
+  "unityRelease": "26f1",
+  "keywords": [
+    "lua",
+    "keralua",
+    "nlua",
+    "c#",
+    "scripting",
+    "programming"
+  ],
+  "author": {
+    "name": "Vinicius Jarina",
+    "email": "viniciusjarina@gmail.com",
+    "url": "https://github.com/viniciusjarina"
+  },
+  "dependencies": {
+    "com.github.nlua.keralua": "1.2.14"
+  }
+}
