@@ -3,14 +3,14 @@
 This repo contains [NLua](https://github.com/NLua/NLua) as a Unity package.
 This repo is only for the convenience of using NLua within the [Unity game engine](https://unity.com/).
 
-## Supported Unity Versions
+## :exclamation: Requirements
 
-**NOTE:** This package failed to compile in Unity 2018.4.35.f1, but **worked** in Unity 2019.4.26f1.
+- Unity 2019.4.26f1 or newer
+- Install [KeraLua's Unity package](https://github.com/2kpixelstudios/keralua-unity-package)
 
-- :warning: Versions before Unity 2019.4.26f1 may not work,
-- :heavy_check_mark: Versions after Unity 2019.4.26f1+ including Unity 2020.1+ should work.
+---
 
-## Usage
+## How To Use This Package
 
 ### Short Instructions
 
@@ -27,7 +27,7 @@ To use this project, ensure you already have a version of Unity downloaded with 
 Ensure your Unity project is using Unity 2019.4.26 or newer.
 
 1. Download this project's tagged latest release, or clone this repo as a Git submodule.
-  - If cloning as a Git submodule, use the `unity-package` branch or a tag such as `v1.5.9`.
+    - If cloning as a Git submodule, use the `unity-package` branch or a tag such as `v1.5.9`.
 2. Ensure the NLua (Unity package) files are within your Unity project folder structure (either _in_ or _alongside_ your `Assets/` folder)
 3. In your Unity project, open the Unity Package Manager from the `Window > Package Manager` menu.
 4. In the package manager, add the `+` button and choose "Add package from disk...".
